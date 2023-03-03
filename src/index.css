@@ -5,7 +5,7 @@
 body{
   margin: 0px;
   height: 100%;
-  @apply bg-black sm:flex sm:justify-center
+  @apply bg-black sm:flex sm:justify-center 
 }
 .calc-grid {
   @apply text-white grid grid-cols-4 grid-rows-5 m-2 text-lg sm:text-sm sm:font-light font-bold 
