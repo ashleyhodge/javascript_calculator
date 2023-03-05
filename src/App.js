@@ -200,7 +200,7 @@ function App() {
       <OperationBtn operation='+' dispatch={dispatch} />
       <DigitBtn digit='0' dispatch={dispatch} />
       <DigitBtn digit='.' dispatch={dispatch} />
-      <div onClick={() => dispatch({ type: ACTIONS.EVALUATE })} className='button-container group'>
+      <div onClick={() => dispatch({ type: ACTIONS.EVALUATE })} className='button-container group col-span-2'>
         <div className='glow bg-[#fde802]'></div>
         <div className='button-div'>
           <button>=</button>
